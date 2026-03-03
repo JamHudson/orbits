@@ -7,10 +7,6 @@
 #include "Orbiter.h"
 #include "movement.h"
 
-// A scaling factor by which to reduce the force applied when orbiting
-// Important for numerical stability
-static constexpr bn::fixed FORCE_SCALE = 10;
-
 // Maximum number of orbiters allowed on the screen
 static constexpr int MAX_ORBITERS = 30;
 
